@@ -6,10 +6,59 @@ html {
 	box-sizing: inherit;
 }
 
+div {
+	background-color: #2c3950;
+	padding: 7em;
+	position: relative;
+}
+
+h1 {
+	background-color: #1a2230;
+	margin: 0;
+	position: fixed;
+	left: 0;
+	bottom: -2em;
+	text-align: center;
+	width: 100%;
+	font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+.body {
+	width: 320px;
+}
+
+
+.left {
+	width: 125px;
+	float: left;
+	position: absolute;
+	bottom: 10.25em;
+	left: 9.25;
+}
+
+.right {
+	width: 125px;
+	float: right;
+	position: absolute;
+}
+
+.brain {
+	width: 46px;
+	position: absolute;
+}
+
+
 header {
 	position: relative;
 	overflow: hidden;
-	background-color: #2c3950;
 }
 
 img {
@@ -17,17 +66,7 @@ img {
 	display: block;
 }
 
-h1 {
-	background-color: #1a2230;
-	margin: 0;
-	position: absolute;
-	left: 0;
-	bottom: -2em;
-	text-align: center;
-	width: 100%;
-	transition: all 200ms linear;
-	font-size: 4em;
-}
+
 
 header:hover h1 {
 	bottom: 1em;
