@@ -47,12 +47,12 @@ h1 {
 }
 
 div:hover .right {
-	right: 10em;
+	right: .25em;
 	transition: all 200ms linear;
 }
 
 div:hover .left {
-	left: 7em;
+	left: .25em;
 	transition: all 200ms linear;
 }
 
@@ -73,7 +73,7 @@ div:hover .brain {
 	width: 46px;
 	position: absolute;
 	bottom: 15em;
-	left: 15.5em;
+	left: 8.68em;
 	top: 7.10em;
 }
 
