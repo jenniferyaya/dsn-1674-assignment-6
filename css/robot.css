@@ -6,17 +6,22 @@ html {
 	box-sizing: inherit;
 }
 
+header {
+		background-color: #2c3950;
+}
+
 img {
 	width: 100%;
 	display: block;
 }
 
 div {
-	background-color: #2c3950;
-	padding: 7em 7em 0em 7em;
+	padding-top: 7em;
 	position: relative;
-	margin: 0 0 0 0em;
+	margin: 0 auto;
+	width: 320px;
 }
+
 
 h1 {
 	font-family: 'Contrail One', cursive;
@@ -24,23 +29,36 @@ h1 {
 	margin: 0;
 	text-align: center;
 	width: 100%;
-	font-size: 2.5em;
+	font-size: 2.5rem;
 	color: #fff;
 	padding: 0.5em 0.5em 0.5em 0;
 }
 
-
 .body {
 	width: 320px;
 }
-
 
 .left {
 	width: 125px;
 	float: left;
 	position: absolute;
 	bottom: 3.25em;
-	left: 9.18em;
+	left: 2.25em;
+}
+
+div:hover .right {
+	right: 10em;
+	transition: all 200ms linear;
+}
+
+div:hover .left {
+	left: 7em;
+	transition: all 200ms linear;
+}
+
+div:hover .brain {
+	top: 4em;
+	transition: all 500ms linear;
 }
 
 .right {
@@ -48,7 +66,7 @@ h1 {
 	float: right;
 	position: absolute;
 	bottom: 3.25em;
-	right: 11.78em;
+	right: 2.25em;
 }
 
 .brain {
