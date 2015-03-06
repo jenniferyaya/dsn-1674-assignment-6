@@ -15,20 +15,12 @@ div {
 h1 {
 	background-color: #1a2230;
 	margin: 0;
-	position: fixed;
-	left: 0;
-	bottom: -2em;
 	text-align: center;
 	width: 100%;
-	font-size: 4em;
+	font-size: 2em;
+	color: #fff;
+	padding: 1em;
 }
-
-
-
-
-
-
-
 
 
 .body {
@@ -41,18 +33,22 @@ h1 {
 	float: left;
 	position: absolute;
 	bottom: 10.25em;
-	left: 9.25;
+	left: 9.20em;
 }
 
 .right {
 	width: 125px;
 	float: right;
 	position: absolute;
+	bottom: 10.25em;
+	right: 11.74em;
 }
 
 .brain {
 	width: 46px;
 	position: absolute;
+	bottom: 15em;
+	left: 15.5em;
 }
 
 
@@ -67,7 +63,3 @@ img {
 }
 
 
-
-header:hover h1 {
-	bottom: 1em;
-}
